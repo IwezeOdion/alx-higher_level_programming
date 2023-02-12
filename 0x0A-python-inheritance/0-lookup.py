@@ -1,13 +1,9 @@
-
-n that returns the list of available
-attributes and methods of an object"""
+#!/usr/bin/python3
+"""
+Definition of module
+"""
 
 
 def lookup(obj):
-        """Returns attributes amd methods of an object
-            Args:
-                        obj: The object
-                                Return: The attributes and the methods of an object
-                                    """
-
-                                        return dir(obj)
+"""returns a list of available objects"""
+return dir(obj)
